@@ -1,0 +1,129 @@
+body {
+	background-color: #ffe7c4;
+	color: black;
+	text-align: center;
+}
+
+/* Centered div for title and links */
+div {
+    height: 200px;
+    width: 400px;
+    background: transparent;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+/* Page heading */
+h1 {
+	color: maroon;
+	font-family: "Georgia", serif;
+	font-style: italic;
+	font-variant: small-caps;
+	text-decoration: underline;
+	font-size: 400%;
+}
+
+p {
+	color: darkslategrey;
+	font-family: Helvetica, sans-serif;
+	font-size: large;
+}
+
+a:link {
+	font-weight:bolder; 
+	color:darkslategrey; 
+	background-color:transparent; 
+	text-decoration:underline; 
+	text-decoration-style:dotted;
+}
+
+a:visited {
+	font-weight:bolder; 
+	color:darkslategrey; 
+	background-color:transparent; 
+	text-decoration:underline; 
+	text-decoration-style:dotted;
+}
+
+a:hover {
+	font-weight:bolder; 
+	color:black; 
+	background-color:yellow; 
+	background-text-decoration:underline; 
+	text-decoration-style:dotted;
+}
+
+/* Disclaimer class */
+.disclaimer {
+    text-align: center;
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: darkslategrey;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-weight:normal;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+/* Fade ID */
+#fade p {
+    text-align: center;
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+/* Fade ID */
+#fade h1 {
+    text-align: center;
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

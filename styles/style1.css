@@ -1,7 +1,11 @@
 body {
-	background-color: #ffe0cc; /*whitesmoke*/ /*ffe0cc*/
+	background-color: #ffe7c4;
 	color: black;
 	text-align: left;
+}
+
+div {;
+	margin-bottom: 50px;
 }
 
 /* Page heading */
@@ -92,9 +96,9 @@ a:hover {
 	text-decoration-style:dotted;
 }
 
-.bottom {
-    /*position: fixed;
-    bottom: 0;*/
+.disclaimer {
+    position: fixed;
+    bottom: 0;
     color: darkslategrey;
 	font-family: "Lucida Sans Unicode", sans-serif;
 	font-weight:normal;
