@@ -1,0 +1,103 @@
+body {
+	background-color: #ffe0cc; /*whitesmoke*/ /*ffe0cc*/
+	color: black;
+	text-align: left;
+}
+
+/* Page heading */
+h1 {
+	
+	color: maroon;
+	font-family: "Georgia", serif; 
+	font-style: italic;
+	font-variant: small-caps;
+	text-decoration: underline;
+	text-align: center;
+}
+
+/* Section heading */
+h2 {
+	margin-left: 25px;
+	margin-right: 25px;
+	color: darkslategrey;
+	font-family: "Georgia", serif;
+}
+
+/* Inner section heading */
+h3 {
+	color: darkslategrey;
+	font-family: "Georgia", serif;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/* Santa Clara disclosure */
+h6 {
+	
+}
+
+li {
+	font-family: Helvetica, sans-serif; 
+}
+
+a {
+	font-family: Helvetica, sans-serif;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+}
+
+pre {
+	font-family: Helvetica, sans-serif;
+	margin-left: 25px;
+	margin-right: 50px;
+}
+
+code {
+	font-family: "Lucida Console", Monaco, monospace; 
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Here are the link specifications */
+a:link {
+	font-weight:bolder; 
+	color:darkslategrey; 
+	background-color:transparent; 
+	text-decoration:underline; 
+	text-decoration-style:dotted;
+}
+
+a:visited {
+	font-weight:bolder; 
+	color:darkslategrey; 
+	background-color:transparent; 
+	text-decoration:underline; 
+	text-decoration-style:dotted;
+}
+
+a:hover {
+	font-weight:bolder; 
+	color:black; 
+	background-color:yellow; 
+	background-text-decoration:underline; 
+	text-decoration-style:dotted;
+}
+
+.bottom {
+    /*position: fixed;
+    bottom: 0;*/
+    color: darkslategrey;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-weight:normal;
+	margin-left:10px;
+	margin-right:10px;
+}
