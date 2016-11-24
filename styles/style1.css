@@ -55,6 +55,10 @@ p {
 	text-align: justify;
 }
 
+var {
+	font-family: "Georgia", serif;
+}
+
 pre {
 	font-family: Helvetica, sans-serif;
 	margin-left: 25px;
@@ -97,8 +101,8 @@ a:hover {
 }
 
 .disclaimer {
-    position: fixed;
-    bottom: 0;
+    /*position: fixed;
+    bottom: 0;*/
     color: darkslategrey;
 	font-family: "Lucida Sans Unicode", sans-serif;
 	font-weight:normal;
