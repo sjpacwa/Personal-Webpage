@@ -2,10 +2,11 @@ body {
 	background-color: #ffe7c4;
 	color: black;
 	text-align: left;
+	overflow: auto;
 }
 
-div {;
-	margin-bottom: 50px;
+div {
+
 }
 
 /* Page heading */
@@ -108,4 +109,13 @@ a:hover {
 	font-weight:normal;
 	margin-left:10px;
 	margin-right:10px;
+}
+
+.maxWidth {
+	width: 60%;
+	position: relative;
+	left: 50%;
+	height: 100%;
+	margin-left: -30%;
+	
 }
