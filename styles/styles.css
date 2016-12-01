@@ -1,0 +1,257 @@
+body {
+	background-color: #dddddd;
+	color: black;
+	text-align: left;
+	overflow: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div {
+
+}
+
+/* Page heading */
+h1 {
+	color: maroon;
+	font-family: "Georgia", serif; 
+	font-style: italic;
+	font-variant: small-caps;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 16px;
+}
+
+/* Section heading */
+h2 {
+	margin-left: 25px;
+	margin-right: 25px;
+	color: darkslategrey;
+	font-family: "Georgia", serif;
+}
+
+/* Inner section heading */
+h3 {
+	color: darkslategrey;
+	font-family: "Georgia", serif;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/* Santa Clara disclosure */
+h6 {
+	
+}
+
+li {
+	font-family: Helvetica, sans-serif; 
+}
+
+a {
+	font-family: Helvetica, sans-serif;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+}
+
+var {
+	font-family: "Georgia", serif;
+}
+
+pre {
+	font-family: Helvetica, sans-serif;
+	margin-left: 25px;
+	margin-right: 50px;
+}
+
+code {
+	font-family: "Lucida Console", Monaco, monospace; 
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+table {
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/* Here are the link specifications */
+a:link {
+	font-weight:bolder; 
+	color:darkslategrey; 
+	background-color:transparent; 
+	text-decoration:underline; 
+	text-decoration-style:dotted;
+}
+
+a:visited {
+	font-weight:bolder; 
+	color:darkslategrey; 
+	background-color:transparent; 
+	text-decoration:underline; 
+	text-decoration-style:dotted;
+}
+
+a:hover {
+	font-weight:bolder; 
+	color:black; 
+	background-color:yellow; 
+	background-text-decoration:underline; 
+	text-decoration-style:dotted;
+}
+
+.disclaimer {
+    /*position: fixed;
+    bottom: 0;*/
+    color: darkslategrey;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-weight:normal;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.maxWidth {
+	width: 60%;
+	position: relative;
+	left: 50%;
+	height: 100%;
+	margin-left: -30%;
+	
+}
+
+.thLink {
+	font-family: Helvetica, sans-serif;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-left: 0px;
+	border-width: 1px;
+}
+
+.thInfo {
+	font-family: Helvetica, sans-serif;
+	padding-left: 0px;
+	border-bottom: solid;
+	border-width: 1px;
+	font-weight: normal;
+	text-align: justify;
+}
+
+.mainDiv {
+	width: 60%;
+	height: 100vh;
+	margin-left:-30%;
+	left: 50%;
+	position: relative;
+	background-color: #ffe7c4;
+	border-left: solid;
+	border-right: solid;
+	border-left-color: darkslategrey;
+	border-right-color: darkslategrey; 
+}
+
+
+/*Main Index*/
+.indexBody {
+	background-color: #ffe7c4;
+	text-align: center;
+}
+
+.indexDiv {
+	height: 25%;
+	width:50%;
+	background: transparent;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -12.5%;
+	margin-left: -25%;
+}
+
+.indexH1 {
+	font-size: 400%;
+}
+
+.indexP {
+	font-family: Helvetica, sans-serif;
+	color: darkslategrey;
+	font-size: large;
+	text-align: center;
+}
+
+.indexDisclaimer {
+	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+
+	text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: darkslategrey;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-weight:normal;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#fade p {
+    text-align: center
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+/* Fade ID */
+#fade h1 {
+    text-align: center;
+
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
