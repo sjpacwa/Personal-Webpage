@@ -76,6 +76,13 @@ img {
     margin-right: auto
 }
 
+table {
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
 /* Here are the link specifications */
 a:link {
 	font-weight:bolder; 
@@ -118,4 +125,21 @@ a:hover {
 	height: 100%;
 	margin-left: -30%;
 	
+}
+
+.thLink {
+	font-family: Helvetica, sans-serif;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-left: 0px;
+	border-width: 1px;
+}
+
+.thInfo {
+	font-family: Helvetica, sans-serif;
+	padding-left: 0px;
+	border-bottom: solid;
+	border-width: 1px;
+	font-weight: normal;
+	text-align: justify;
 }
