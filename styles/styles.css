@@ -163,20 +163,39 @@ a:hover {
 
 /*Main Index*/
 .indexBody {
-	background-color: #ffe7c4;
+	background-image: url("../resources/background1.jpg");
+	background-size: cover;
 	text-align: center;
 }
 
 .indexDiv {
-	height: 25%;
-	width:50%;
+	background-color: #ffe7c4;
+	border: solid;
+	border-color: darkslategrey;
+	margin: 0 auto;
+}
+
+.indexDiv2 {
+	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+
 	background: transparent;
 	position: fixed;
 	top: 50%;
 	left: 50%;
+	padding:5px;
 	margin-top: -12.5%;
 	margin-left: -25%;
+	border: solid;
+	border-color: darkslategrey;
+	border-width:1px;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
 }
+
 
 .indexH1 {
 	font-size: 400%;
@@ -196,10 +215,10 @@ a:hover {
          -o-animation: fadein 4s; /* Opera < 12.1 */
             animation: fadein 4s;
 
-	text-align: center;
+	text-align: left;
     position: fixed;
     bottom: 0;
-    color: darkslategrey;
+    color: #ffffff;
 	font-family: "Lucida Sans Unicode", sans-serif;
 	font-weight:normal;
 	margin-left:10px;
