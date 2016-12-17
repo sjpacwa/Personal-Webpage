@@ -1,5 +1,5 @@
 body {
-	background-color: #dddddd;
+	background-color: #dfecec;
 	color: black;
 	text-align: left;
 	overflow: auto;
@@ -153,12 +153,38 @@ a:hover {
 	margin-left:-30%;
 	left: 50%;
 	position: relative;
-	background-color: #ffe7c4;
-	border-left: solid;
-	border-right: solid;
-	border-left-color: darkslategrey;
-	border-right-color: darkslategrey; 
+	background-color: #e3dacf;
 }
+
+.headerDiv {
+	background-color: #e3dacf;
+	border: solid;
+	border-left-style: none;
+	border-right-style: none;
+	border-color: darkslategrey;
+	margin: 0 auto;
+	height:120px;
+	background-image: url("../resources/background1.jpg");
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.headerDiv2 {
+	background-color: #e3dacf;
+	position: relative;
+	width: 40%;
+	margin-top: -12.5%;
+	margin-left: -25%;
+	border: solid;
+	border-color: darkslategrey;
+	border-width:1px;
+	margin: 0 auto;
+	height: 70%;
+	top: 15%;
+	opacity: 0.75;
+}
+
 
 
 /*Main Index*/
@@ -169,20 +195,20 @@ a:hover {
 }
 
 .indexDiv {
-	background-color: #ffe7c4;
+	background-color: #e3dacf;
 	border: solid;
 	border-color: darkslategrey;
 	margin: 0 auto;
 }
 
 .indexDiv2 {
-	-webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
-            animation: fadein 4s;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 
-	background: transparent;
+	background-color: rgba(227,218,207,0.5);
 	position: fixed;
 	top: 50%;
 	left: 50%;
