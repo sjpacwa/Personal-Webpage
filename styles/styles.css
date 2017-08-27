@@ -1,10 +1,18 @@
 body {
-	background-color: #dfecec;
+	
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #fefdfb , #5b7cb2, #fefdfb); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #fefdfb, #5b7cb2, #fefdfb); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #fefdfb, #5b7cb2, #fefdfb); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #fefdfb , #5b7cb2, #fefdfb); /* Standard syntax */
+	
+
+	/*background-color: #dfecec;
 	color: black;
 	text-align: left;
 	overflow: auto;
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;*/
 }
 
 div {
@@ -55,9 +63,10 @@ a {
 
 p {
 	font-family: Helvetica, sans-serif;
+	font-size: 2vh;
 	margin-left: 50px;
 	margin-right: 50px;
-	text-align: justify;
+	/*text-align: justify;*/
 }
 
 var {
@@ -149,26 +158,37 @@ a:hover {
 }
 
 .mainDiv {
-	width: 60%;
-	height: 100vh;
-	margin-left:-30%;
-	left: 50%;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #696969;
+	width: 70vw;
+	margin: auto;
 	position: relative;
-	background-color: #e3dacf;
+	background-color: white;
+	margin-top: 85px;
+
+	margin-bottom: 5vh;
 }
 
 .headerDiv {
-	background-color: #e3dacf;
-	border: solid;
-	border-left-style: none;
-	border-right-style: none;
-	border-color: darkslategrey;
-	margin: 0 auto;
-	height:120px;
-	background-image: url("../resources/background1.jpg");
-	background-size: 100%;
-	background-position: center center;
-	background-repeat: no-repeat;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 1000;
+	width: 100vw;
+	height: 70px;
+	background-color: #696969;
+	text-align: center;
+}
+
+.head {
+	font-family: monospace;
+	font-weight: bold; 
+	font-size: 36px;
+	margin: 0;
+	margin-top: 17px;
+	margin-bottom: 17px;
+	display: inline-block;
 }
 
 .headerDiv2 {
@@ -211,8 +231,8 @@ a:hover {
 
 	background-color: rgba(227,218,207,0.5);
 	position: fixed;
-	top: 50%;
-	left: 50%;
+	top: 50vh;
+	left: 50vw;
 	padding:5px;
 	margin-top: -12.5%;
 	margin-left: -25%;
